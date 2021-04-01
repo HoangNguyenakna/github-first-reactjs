@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/github-first-reactjs/static/css/main.f6930991.chunk.css",
+    "main.js": "/github-first-reactjs/static/js/main.e0da312d.chunk.js",
+    "main.js.map": "/github-first-reactjs/static/js/main.e0da312d.chunk.js.map",
+    "runtime-main.js": "/github-first-reactjs/static/js/runtime-main.148d3046.js",
+    "runtime-main.js.map": "/github-first-reactjs/static/js/runtime-main.148d3046.js.map",
+    "static/css/2.45fd61dd.chunk.css": "/github-first-reactjs/static/css/2.45fd61dd.chunk.css",
+    "static/js/2.7ceb0fe3.chunk.js": "/github-first-reactjs/static/js/2.7ceb0fe3.chunk.js",
+    "static/js/2.7ceb0fe3.chunk.js.map": "/github-first-reactjs/static/js/2.7ceb0fe3.chunk.js.map",
+    "static/js/3.5ac35275.chunk.js": "/github-first-reactjs/static/js/3.5ac35275.chunk.js",
+    "static/js/3.5ac35275.chunk.js.map": "/github-first-reactjs/static/js/3.5ac35275.chunk.js.map",
+    "index.html": "/github-first-reactjs/index.html",
+    "static/css/2.45fd61dd.chunk.css.map": "/github-first-reactjs/static/css/2.45fd61dd.chunk.css.map",
+    "static/css/main.f6930991.chunk.css.map": "/github-first-reactjs/static/css/main.f6930991.chunk.css.map",
+    "static/js/2.7ceb0fe3.chunk.js.LICENSE.txt": "/github-first-reactjs/static/js/2.7ceb0fe3.chunk.js.LICENSE.txt",
+    "static/media/Food.css": "/github-first-reactjs/static/media/main-banner.a74910e9.jpg",
+    "static/media/Flag_Nation_vietnam.0036df4e.svg": "/github-first-reactjs/static/media/Flag_Nation_vietnam.0036df4e.svg",
+    "static/media/flag-America.9085b867.svg": "/github-first-reactjs/static/media/flag-America.9085b867.svg",
+    "static/media/font-awesome.min.css": "/github-first-reactjs/static/media/fontawesome-webfont.f691f37e.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.148d3046.js",
+    "static/css/2.45fd61dd.chunk.css",
+    "static/js/2.7ceb0fe3.chunk.js",
+    "static/css/main.f6930991.chunk.css",
+    "static/js/main.e0da312d.chunk.js"
+  ]
+}
