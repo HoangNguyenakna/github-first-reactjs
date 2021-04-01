@@ -1,0 +1,97 @@
+.item-restaurant{
+    padding: 8px;
+    width: 33.33333%;
+    /* border: 1px solid black; */
+    /* height: 20px; */
+    position: relative;
+    z-index: 8;
+    /* float: left; */
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.now-list-restaurant .item-content:hover{
+    transition: 0.25s;
+    box-shadow: 0px 2px 8px 0px rgba(51, 88, 100, 0.4),
+    0px 5px 15px 0px rgba(51, 88, 100, 0.4);
+    border-radius: 6px ;
+    text-decoration: none;
+    position: relative;
+    z-index: 20;
+}
+
+.item-content{
+    cursor: pointer;
+    border-radius: 6px;
+    background-color: #fff;
+    position: relative;
+    display: block;
+    border-bottom: black;
+    /* box-shadow: 5px 5px 15px 0px rgba(39, 200, 255, 0.5),
+    -5px 5px 15px 0px rgba(39, 200, 255, 0.5);
+    border-radius: 6px ; */
+}
+
+.main-right-home .now-list-restaurant .img-restaurant{
+    height: 116px;
+    /* align-items: center; */
+}
+
+.img-restaurant img{
+    width: auto;
+    height: 116px;
+    /* position: absolute; */
+    padding-top: 0px;
+    border-radius: 6px 6px 0px 0px;
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+}
+
+h4{
+    font-family: inherit;
+    line-height: 1.2;
+}
+
+.info-restaurant{
+    border: 1px solid #d7d7d7;
+    /* border-radius: 0px 0px 7px 7px; */
+    text-transform: capitalize;
+    border-radius: 0px 0px 6px 6px;
+
+
+}
+
+.info-basic-res{
+    border-bottom: 1px solid #d7d7d7;
+    padding: 5px 8px;
+
+}
+.name-res{
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+}
+
+.address-res{
+    color: gray;
+    overflow: hidden;
+    white-space: nowrap;/* chử hiện trên 1 hàng bao h gặp br/ mói xuống hàng*/
+    text-overflow: ellipsis;/* nếu chử hiện quá nhìu tràn khung thì chử tràng thay bằng ba chấm ...
+    và chỉ working khi có overflow:hidden àn white-space*/
+    font-size: 12px;
+}
+
+.content-promotion{
+    font-size: 13px;
+    font-weight: 700;
+    margin: 0;
+    padding: 8px 8px 5px;
+    text-align: left;
+    color: #187caa;
+    /* display: flex; */
+}
+
+.content-promotion:hover{
+    color: #187caa;
+}

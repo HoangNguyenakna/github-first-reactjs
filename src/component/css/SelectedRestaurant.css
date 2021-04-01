@@ -1,0 +1,10 @@
+/* .item-restaurant{
+
+} */
+
+.name-res{
+    overflow: hidden;
+    white-space: nowrap;/* chử hiện trên 1 hàng bao h gặp br/ mói xuống hàng*/
+    text-overflow: ellipsis;/* nếu chử hiện quá nhìu tràn khung thì chử tràng thay bằng ba chấm ...
+    và chỉ working khi có overflow:hidden àn white-space*/
+}

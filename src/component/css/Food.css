@@ -1,0 +1,339 @@
+
+.now-banner{
+    height: 100vh;
+    width: 100%;
+    top: 70px;
+    position: fixed;
+    background-image: url(../svg/main-banner.jpg);
+    background-size: cover;/* ảnh được co để vừa với phần tử chứa, tuy nhiên ảnh bị cắt nếu kích thước không cùng tỷ lệ với phần tử chứa.*/
+    z-index: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;/*Thuộc tính overflow xác định điều gì sẽ xảy ra nếu một thành phần box tràn nội dung. */
+}
+
+.container{
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.now-banner .container{
+    height: 100%;
+    position: relative;/* relative : Định vị trí tuyệt đối cho thành phần.
+        static: Thành phần sẽ nằm theo thứ tự trong văn bản, đây là dạng mặc định
+        absolute: Định vị trí tuyệt đối cho thành phần theo thành 
+        phần bao ngoài (thành phần định vị trí tương đối position: relative;) hoặc theo cửa sổ trình duyệt.
+        fixed:Định vị trí tương đối cho thành phần theo cửa sổ trình duyệt.
+        inherit: Xác định thừa hưởng thuộc tính từ thành phần cha (thành phần bao ngoài).
+        */
+}
+
+
+.now-search{
+    width: 470px;
+    position: absolute;
+    z-index: 2;
+    top:50%;
+    left: 20px;
+    transform: translateY(-50%);
+    margin-top: -30px;
+    color: #fff;
+    text-align: left;
+}
+
+.form-search{
+    padding: 20px 0;
+}
+
+.now-search .form-search .input-group input {
+    width: 100%;
+    padding-right: 75px;
+    padding-left: 10px;
+    height: 50px;
+    border: 0;
+    border-radius: 6px 10px 10px 6px;
+}
+.now-search .form-search .input-group input:focus{
+    outline-width: 0;
+}
+
+.now-search .form-search .btn-search:active {
+    outline-width: 0;
+    outline-style: none;
+    outline: 0;
+}
+.now-search .form-search .btn-search{
+    width: 70px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0 6px 6px 0;
+    /* padding-top: ; */
+}
+
+.now-search .title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.now-search .local{
+    
+    font-size: 15px;
+    text-transform: capitalize;/*in đậm chử cái đầu tiên*/
+}
+
+.btn-search{
+    display: inline-block;
+    background: #0288d1;
+    color: white;
+    border: none;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+
+
+.category-list-filter{
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.category-list-filter>a{
+    display: inline-block;
+    white-space: nowrap;
+    cursor: pointer;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    color: white;
+    /* height: auto; */
+    padding: 5px 0;
+}
+
+.category-list-filter>a:hover{
+    text-decoration: none;
+    /* color: #252525; */
+
+}
+
+
+.category-list-filter .category-item{
+    border-radius: 6px;
+    border: 1px solid;
+    padding: 5px 15px;
+    white-space: nowrap;
+}
+
+.category-list-filter .category-item:hover{
+    background: white;
+    border:1px solid white;
+    /* color: #252525; */
+    color: #464646;
+}
+
+.introduc1{
+    left: 0;
+   
+}
+
+.font18{
+    font-size: 1.125rem!important;
+}
+
+
+
+.iphoneDownload{
+    transform: scale(.75);
+    background-position: -448px -360px;
+    width: 228px;
+    height: 72px;
+    background-image: url("../svg/ipStore.PNG");
+   transform-origin: left;
+   margin-right: -32px;
+}
+
+.gg-playDownload{
+    transform: scale(.75);
+    background-position: -446px -293px;
+    width: 228px;
+    height: 72px;
+    background-image: url("../svg/Capture.PNG");
+   transform-origin: left;
+   margin-right: -32px;
+}
+
+.availbeDownload{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+@media (min-width: 1200px){
+    .container{
+        max-width: 1180px;
+    }
+}
+
+.clearfix:after{
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.contain-main-home .main-right-home{
+    float: right;
+    width: 670px;
+    margin-top: 48px;
+    position: relative;
+    z-index: auto;
+    margin-bottom: 75px;
+
+    
+}
+
+.main-right-home .user-get-local{
+    /* background-color: white;*/
+    border-radius: 4px; 
+    color: black;
+    position: relative;
+    margin-bottom: 20px;
+    z-index: 6;
+    background-color:white;
+    padding: 14px 17px 14px 40px;
+    
+}
+
+.align-item-center{
+    align-items: center;
+    text-align: left;
+    color: #464646;
+}
+
+.col-auto{
+    height: auto;
+}
+.col {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+}
+.pl-2{
+    padding-left: .5rem;
+}
+.pr-2{
+    padding-right: .5rem!important;
+}
+
+.txt-elipsis {
+    text-overflow: ellipsis;/* nếu chử hiện quá nhìu tràn khung thì chử tràng thay bằng ba chấm ...*/
+    white-space: nowrap;
+    overflow: hidden;
+    align-items: flex-start;
+}
+.pointer{
+    cursor: pointer;
+}
+
+.now-list-restaurant {
+    color: #464646;
+    background-color: white;
+    padding: 13px 40px 10px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.main-right-home .now-list-restaurant .title-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+.icon-list-deal {
+    position: relative;
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    margin-right: 4px;
+}
+
+.showing-all-restaurant:hover{
+
+    text-decoration: none;
+}
+
+.icon-list-deal .square {
+    width: 3px;
+    height: 3px;
+    background-color: #0288d1;
+    position: absolute;
+}
+
+.main-right-home .view-all-deal .icon-list-deal {
+    top: -1px;
+    margin-right: 4px;
+}
+
+.icon-list-deal .square:first-child {
+    top: 0;
+    left: 0;
+}
+
+.icon-list-deal .square:nth-child(2) {
+    top: 0;
+    right: 0;
+}
+
+.icon-list-deal .square:nth-child(3) {
+    bottom: 0;
+    right: 0;
+}
+
+.icon-list-deal .square:nth-child(4) {
+    bottom: 0;
+    left: 0;
+}
+
+
+h2{
+    display: inline-block;
+}
+.title-wrap{
+    align-items: center;
+    text-align: left;
+    
+}
+
+.title-wrap .title{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.list-restaurant{
+    display: flex;
+    margin: 0 -7px;
+    flex-wrap: wrap;
+        
+    
+}
+
+.btnLoadMore{
+    border: none;
+    background-color: transparent;
+}
+
+.btnLoadMore:focus{
+    border: none;
+    outline: none;
+}
+
+
+.list-restaurant{
+    margin: 0px -8px;
+}
